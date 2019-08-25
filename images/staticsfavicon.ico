@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <link rel="stylesheet" href="/noDataPage/css/normalize.css">
+    <link rel="stylesheet" href="/noDataPage/css/main.css">
+    <link rel="stylesheet" href="/noDataPage/css/notDataPage.css">
+</head>
+<body>
+<div class="notDataPage">
+    <div class="tip_dialog">
+        <div class="tip-content">
+            <h3>抱歉，您访问的页面出错！</h3>
+            <p>Page not found!</p>
+            <div class="goBack_btn">
+                <button>
+                    <span onclick="jump();" style="cursor:pointer">返回首页</span>
+                    <i class="goBackIcon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/noDataPage/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="/noDataPage/js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript" src="/noDataPage/js/main.js"></script>
+<script>
+    setTimeout(jump,5000);
+    function jump(){
+        window.location = '/'
+    }
+</script>
+</body>
+</html>

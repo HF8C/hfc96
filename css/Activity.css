@@ -1,0 +1,136 @@
+
+#box{
+    width: 1349px;
+    height: 960px;
+    /*background-color: aqua;*/
+    position: relative;
+    margin: 0 auto;
+}
+/*================================活动专区====================================*/
+.cont{
+    width: 895px;
+    height: 900px;
+    /*background-color: black;*/
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+/*================================第一个盒子====================================*/
+.box1{
+    width: 700px;
+    height: 210px;
+    background: url("../images/2.jpg");
+    margin: 0 auto;
+    margin-top: 10px;
+    opacity:0.5;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.box1:hover{
+    opacity:1;
+
+}
+/*================================第二个盒子====================================*/
+.box2{
+    width: 700px;
+    height: 210px;
+    background-color: #d2cece;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box2>h2{
+    color: #ffc843;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box2>p{
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box2>a{
+    width: 100px;
+    height: 30px;
+    background-color: #ffc843;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    position: absolute;
+    line-height: 30px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+
+
+.box2>a:hover{
+    transform: scale(1.25);
+}
+/*================================第三个盒子====================================*/
+.box3{
+    width: 700px;
+    height: 210px;
+    background:url("../images/3.jpg");
+    margin: 0 auto;
+    margin-top: 10px;
+    opacity:0.5;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.box3:hover{
+    opacity:1;
+
+}
+/*================================第四个盒子====================================*/
+.box4{
+    width: 700px;
+    height: 210px;
+    background-color: #d2cece;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box4>h2{
+    color: #ffc843;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box4>p{
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box4>a{
+    width: 100px;
+    height: 30px;
+    background-color: #ffc843;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    position: absolute;
+    line-height: 30px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+
+
+.box4>a:hover{
+    transform: scale(1.25);
+}

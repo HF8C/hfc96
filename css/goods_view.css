@@ -1,0 +1,182 @@
+.overview{
+    width: 80%;
+    height: 2400px;
+    margin: 10px auto;
+    background-color: #ddd;
+    padding-top: 30px;
+}
+
+.content p{
+    color: #937544;
+    margin-left: 12%;
+}
+
+.con01{
+    width: 95%;
+    margin: 10px auto;
+}
+.con01 h2{
+    border-bottom: 2px solid #bdb723;
+    text-align: center;
+    padding-left: 5%;
+    color: #937544;
+}
+
+.c1{
+    width: 478px;
+    height: 340px;
+    background-color: #bab891;
+    margin-left: 20px;
+    margin-top: 30px;;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+/*第一块儿悬浮start*/
+.con01 .box01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 478px;
+    height: 340px;
+    transition: all 0.5s linear;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.con01 .c1  img{
+    width: 478px;
+    height: 340px;
+    transition: all 0.5s linear;
+
+}
+
+
+.con01 .c1:hover  .box01{
+    background-color: rgba(0, 0, 0, 0);
+}
+.con01 .c1:hover img{
+    height: 310px;
+}
+
+/*第一块儿悬浮end*/
+.c1 p{
+    text-align: center;
+}
+
+.c1 img{
+    width: 478px;
+    height: 310px;
+}
+
+.con02{
+    float: left;
+    width: 95%;
+    margin:30px 3%;
+}
+/*第二块悬浮start*/
+.con02 .c1{
+    height: 310px;
+    opacity:1;
+    position: relative;
+}
+
+.con02 .c1:hover{
+    opacity: 0.4;
+
+}
+
+.con02 .c1:hover .txt{
+    top: 35%;
+}
+
+/*第二块悬浮end*/
+
+
+.con02 .txt{
+    top: 310px;
+    left: 30%;
+    transition: all 0.5s linear;
+
+}
+
+.con02 h2{
+    display: block;
+    width: 176px;
+    text-align: center;
+    color: white;
+    background-color:#bdb723 ;
+}
+
+.txt{
+    position: absolute;
+    top:40%;
+    left:30%;
+    width: 200px;
+    height: 150px;
+}
+.txt p{
+
+    font-size: 12px;
+}
+
+.txt h5{
+    text-align: center;
+    color: #675231;
+}
+
+.con03 {
+    float: left;
+    width: 95%;
+    margin:30px 3%;
+}
+
+
+.con03 .c1{
+    width: 246px;
+    height: 344px;
+    margin-left: 8px;
+    float: left;
+    transition: all 0.5s linear;
+}
+
+.con03 .c1:hover img{
+    transition: all 1s linear;
+    transform: scale(0.9);
+}
+
+.con03 .c1:hover .txt{
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.con03 img{
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    transition: all 0.5s linear;
+
+}
+
+.con03 h2{
+    display: block;
+    width: 176px;
+    text-align: center;
+    color: white;
+    background-color:#bdb723 ;
+}
+
+
+.con03 .c1 img{
+    width: 444px;
+    height: 447px;
+}
+
+.con03 .txt{
+    width: 246px;
+    top: 273px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: rotate(90deg);
+}

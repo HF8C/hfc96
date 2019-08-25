@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>家居项目</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/sale_service.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header head">
+        <div class="logo"></div>
+        <div class="search"><input type="search">
+            <div class="btn">搜索</div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../pages/goods_view.html">商品总览</a></li>
+                <li><a href="../pages/Activity.html">活动专区</a></li>
+                <li><a href="../pages/team_shopping.html">大家团购</a></li>
+                <li><a href="../pages/product_view.html">小用品</a></li>
+                <li><a href="../pages/electricity_son.html">家居杂志</a></li>
+                <li><a href="../pages/sale_service.html">售后服务</a></li>
+                <li><a href="../pages/about_us.html">关于我们</a></li>
+                <div class="right_top">
+                    <ul>
+                        <li><a href="../pages/login.html">登录</a></li>
+                        <li><a href="../pages/register.html">注册</a></li>
+                    </ul>
+                </div>
+            </ul>
+
+        </div>
+        <!--<div class="banner">-->
+
+        <!--</div>-->
+
+    </div>
+    <div class="content">
+         <div class="select_map">
+             <div class="qq">
+                 <div class="son">
+                     <h3>全国售后服务地址：</h3>
+                 </div>
+                 <div class="son2">
+                     <ul class="aa">
+                         <li onclick="changePic(1)">上海</li>
+                         <li onclick="changePic(2)">北京</li>
+                         <li onclick="changePic(3)">成都</li>
+                         <li onclick="changePic(5)">武汉</li>
+                         <li onclick="changePic(9)">天津</li>
+                         <li onclick="changePic(6)">重庆</li>
+                         <li onclick="changePic(7)">山东</li>
+                         <li onclick="changePic(8)">四川</li>
+                         <li onclick="changePic(9)">云南</li>
+                         <li onclick="changePic(10)">河北</li>
+                         <li onclick="changePic(2)"> 江苏</li>
+                         <li onclick="changePic(3)"> 宁夏</li>
+                         <li onclick="changePic(5)">黑龙江</li>
+                     </ul>
+                 </div>
+                 <div class="son3" id="pic_box"></div>
+                 <div class="son4">
+                     <div class="son5">
+                         <ul class="ee">
+                             <li>地址:上海市青浦区松泽大道855号</li>
+                             <li>营业时间：周一到周五 10:30-21:30<br></li>
+                             <li>周六到周日 10:00-21:30</li>
+                             <li>电话：021-123456</li>
+                             <li>接驳公车：91、756、438、松泽线、</li>
+                             <li>桦仙线、华龙线等</li>
+                         </ul>
+                     </div>
+                     <div class="son6">
+                         <ul class="rr">
+                             <li>地址:上海市青浦区松泽大道855号</li>
+                             <li>营业时间：周一到周五 10:30-21:30<br></li>
+                             <li> 周六到周日 10:00-21:30</li>
+                             <li>电话：021-123456</li>
+                             <li>接驳公车：91、756、438、松泽线、</li>
+                             <li>桦仙线、华龙线等</li>
+                         </ul>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+
+    </div>
+         </div>
+    <!--</div>-->
+<!--</div>-->
+    <div class="footer"><p>计算机网络技术1班 第五组全体成员 CopyRight &copy;版权所有</p></div>
+</div>
+</body>
+<script>
+    var picBox=document.getElementById("pic_box");
+    function changePic(num){
+        picBox.style.background="url(../images/map"+num+".jpg)";
+
+    }
+</script>
+</html>

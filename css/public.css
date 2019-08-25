@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 1348px;
+    height:auto;
+    /*background: cadetblue;*/
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 245px;
+    /*background: blueviolet;*/
+}
+.logo{
+    width: 266px;
+    height: 165px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    background: url("../images/logo.png") no-repeat;
+
+    
+}
+.search{
+    width: 470px;
+    height: 40px;
+    /*background: cornflowerblue;*/
+    float: right;
+    margin-right: 40px;
+    margin-top: 110px;
+    border:3px solid red;
+}
+.search input{
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    border: 1px solid #fff;
+    font-size: 25px;
+
+
+}
+
+.search .btn{
+    width: 120px;
+    height: 40px;
+    background: red;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background: #bdb723;
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/*导航排版开始*/
+.nav li{
+    /*display: inline-block;*/
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+}
+.nav li:hover{
+    color: #bab891;
+    /*border-top-left-radius: 15px;*/
+    /*border-bottom-right-radius: 15px;*/
+}
+.nav li a{
+    display: block;
+    /*width: 100px;*/
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+
+}
+.right_top{
+    width: 300px;
+    height: 60px;
+    float: right;
+}
+
+.content{
+    width: 100%;
+    /*height: 500px;*/
+    /*background: olivedrab;*/
+    float: left;
+}
+.footer{
+    width: 1348px;
+    height: 50px;
+    background:#bdb723;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+

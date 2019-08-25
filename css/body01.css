@@ -1,0 +1,38 @@
+#box{
+    width: 1349px;
+    height: 960px;
+    /*background-color: aqua;*/
+    position: relative;
+    margin: 0 auto;
+}
+.cont{
+    width: 895px;
+    height: 900px;
+    background-color: #cccccc;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.box1{
+    width: 741px;
+    height: 872px;
+    background: url("../images/7.jpg");
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.box2{
+    width: 484px;
+    height: 66px;
+    background: url("../images/5.jpg");
+    margin: 806px auto;
+    float: left;
+    margin-left: 237px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s all ease;
+}
+
+.box2:hover{
+    transform: scale(1.25);
+}

@@ -1,0 +1,195 @@
+.ww{
+    width: 80%;
+    height: 2400px;
+    margin: 10px auto;
+    background-color: #ddd;
+    padding-top: 30px;
+}
+
+p{
+    color: #937544;
+    margin-left: 12%;
+}
+
+.con1{
+    width: 95%;
+    margin: 10px auto;
+}
+.con1 h2{
+    border-bottom: 2px solid #bdb723;
+    text-align: center;
+    padding-left: 5%;
+    color: #937544;
+}
+
+.a1{
+    width: 478px;
+    height: 340px;
+    background-color: #bab891;
+    margin-left: 20px;
+    margin-top: 30px;;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+}
+/*第一块儿悬浮start*/
+.con1 .box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 478px;
+    height: 340px;
+    transition: all 0.5s linear;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.con1 .box1>p{
+    width: 400px;
+    height:300px;
+    color: #ffffff;
+    font-size: 18px;
+    position: absolute;
+    top: 85px;
+    left: 1px;
+}
+.con1 .a1:hover .box1{
+    left: -400px;
+}
+
+.con1  .a1:hover .r_a{
+    left: 400px;
+}
+
+.con1 .a1:hover  .box1{
+    background-color: rgba(0, 0, 0, 0);
+}
+/*第一块儿悬浮end*/
+.a1 p{
+    text-align: center;
+}
+
+.a1 img{
+    width: 478px;
+    height: 310px;
+}
+
+.con2{
+    float: left;
+    width: 95%;
+    margin:30px 3%;
+}
+/*第二块悬浮start*/
+.con2 .a1{
+    height: 310px;
+    opacity:1;
+    overflow: hidden;
+    position: relative;
+}
+
+.con2 .a1:hover{
+    font-size: 20px;
+    opacity: 0.4;
+
+}
+
+.con2 .a1:hover .txt{
+    top: 35%;
+}
+
+.con2 .a1:hover p{
+    margin-top: 10px;
+    line-height: 30px;
+    color: black;
+    font-size: 16px;
+}
+
+/*第二块悬浮end*/
+
+
+.con2 .txt{
+    top: 330px;
+    left: 30%;
+    cursor: pointer;
+    transition: all 0.5s linear;
+
+}
+
+.con2 h2{
+    display: block;
+    width: 176px;
+    text-align: center;
+    color: white;
+    background-color:#bdb723 ;
+}
+
+
+.txt{
+    position: absolute;
+    top:40%;
+    left:30%;
+    width: 200px;
+    height: 150px;
+}
+.txt p{
+    font-size: 12px;
+}
+
+.txt h5{
+    text-align: center;
+    color: #675231;
+}
+
+.con3 {
+    float: left;
+    width: 95%;
+    margin:30px 3%;
+}
+
+
+.con3 .a1{
+    width: 246px;
+    height: 344px;
+    margin-left: 8px;
+    float: left;
+    overflow: hidden;
+    transition: all 0.5s linear;
+
+}
+
+.con3 .a1:hover img{
+    transition: all 1s linear;
+    transform: scale(1.5);
+}
+
+.con3 img{
+    transition: all 0.5s linear;
+    transform: scale(1);
+
+}
+
+.con3 h2{
+    display: block;
+    width: 176px;
+    text-align: center;
+    color: white;
+    background-color:#bdb723 ;
+}
+
+.con3 .txt{
+    height: 250px;
+    width: 254px;
+    cursor: pointer;
+    line-height:20px;
+}
+
+.con3 .a1 img{
+    width: 246px;
+    height: 248px;
+    background: antiquewhite;
+}
+
+.con3 .txt{
+    top: 243px;
+    left: -8px;
+    background: white;
+}
